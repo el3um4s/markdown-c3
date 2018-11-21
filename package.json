@@ -1,0 +1,51 @@
+{
+  "name": "markdownc3",
+  "version": "1.0.0",
+  "description": "Markdown Editor and Previewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist:32win": "build --win --ia32 ",
+    "dist:64win": "build --win --x64",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el3um4s/markdown-c3.git"
+  },
+  "keywords": [
+    "markdown",
+    "construct3",
+    "electronjs"
+  ],
+  "author": "Samuele de Tomasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/el3um4s/markdown-c3/issues"
+  },
+  "homepage": "https://github.com/el3um4s/markdown-c3#readme",
+  "dependencies": {
+    "electron-debug": "^2.0.0",
+    "npm": ">=6.0.1",
+    "showdown": "^1.9.0"
+  },
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "electron-builder": "^20.36.2"
+  },
+  "build": {
+    "productName": "Markdown C3",
+    "appId": "com.stranianelli.markdown-c3",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "src/icons/icon.ico"
+    }
+  }
+}

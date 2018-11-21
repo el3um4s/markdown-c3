@@ -1,0 +1,28 @@
+{
+	"name": "Markdown Editor",
+	"version": "1.0.0.0",
+	"description": "",
+	"id": "",
+	"viewport-width": 854,
+	"viewport-height": 480,
+	"author": "",
+	"email": "",
+	"website": "",
+	"orientations": "landscape",
+	"c2version": "244",
+	"c3version": "r125",
+	"used-plugins": [
+		"StraniAnelli_InjectCSS",
+		"StraniAnelli_HTMLElement",
+		"Function",
+		"Browser",
+		"PlatformInfo",
+		"StraniAnelli_Showdown"
+	],
+	"used-behaviors": [
+		"Pin",
+		"DragnDrop",
+		"Tween",
+		"Anchor"
+	]
+}
