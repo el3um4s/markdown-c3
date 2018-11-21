@@ -17,7 +17,7 @@ _A Markdown Editor and Previewer built with Construct 3 and ElectronJs_
 ![screenshot](https://raw.githubusercontent.com/el3um4s/markdown-c3/master/img/screenshot.png)
 
 **Created with:**
-  * [Construc 3](https://www.construct.net/en)
+  * [Construct 3](https://www.construct.net/en)
   * [ElectronJs](https://electronjs.org/)
   * [HTMLElement](https://el3um4s.github.io/construct-html-element-plugin/)
   * [Showdownjs](http://showdownjs.com/)
