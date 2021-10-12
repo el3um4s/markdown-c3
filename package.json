@@ -34,7 +34,7 @@
     "showdown": "^1.9.1"
   },
   "devDependencies": {
-    "electron": "^3.0.10",
+    "electron": "^11.5.0",
     "electron-builder": "^20.36.2"
   },
   "build": {
